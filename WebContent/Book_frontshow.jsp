@@ -10,7 +10,7 @@
     Book book = (Book)request.getAttribute("book");
 
 %>
-<HTML><HEAD><TITLE>查看信息</TITLE>
+<HTML><HEAD><TITLE>查看人员详细信息</TITLE>
 <STYLE type=text/css>
 body{margin:0px; font-size:12px; background-image:url(<%=basePath%>images/bg.jpg); background-position:bottom; background-repeat:repeat-x; background-color:#A2D5F0;}
 .STYLE1 {color: #ECE9D8}

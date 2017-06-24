@@ -21,7 +21,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>图书查询</title>
+<title>人员查询</title>
 <style type="text/css">
 <!--
 body {
@@ -108,7 +108,7 @@ function changepage(totalPage)
             <td width="46%" valign="middle"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td width="5%"><div align="center"><img src="<%=basePath %>images/tb.gif" width="16" height="16" /></div></td>
-                <td width="95%" class="STYLE1"><span class="STYLE3">你当前的位置</span>：[图书管理]-[图书查询]</td>
+                <td width="95%" class="STYLE1"><span class="STYLE3">你当前的位置</span>：[首页]-[人员列表]</td>
               </tr>
             </table></td>
             <td width="54%"><table border="0" align="right" cellpadding="0" cellspacing="0">
@@ -126,7 +126,7 @@ function changepage(totalPage)
   <td>
 姓名:<input type=text name="bookName" value="<%=bookName %>" />&nbsp;
 性别：<select name="bookType.bookTypeId">
- 				<option value="0">不限制</option>
+ 				<option value="0">全部</option>
  				<%
  					for(BookType bookTypeTemp:bookTypeList) {
  			   %>

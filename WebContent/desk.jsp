@@ -8,7 +8,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>信息管理系统 - 桌面</title>
+<title>智能健康状态评估中心 - 桌面</title>
 <link href="<%=basePath %>css/desk.css" rel="stylesheet" type="text/css"> 
 </head>
 
@@ -18,12 +18,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <td valign="top"><font color="#336666">
          <font color='red'><br/><br/>
         
-          欢迎使用本系统
+            欢迎使用智能健康状态评估中心
 
-			系统开发环境: MyEclipse8.5 + Tomcat6.0 + mysql5.0 <br/><br/>
+			系统开发环境: Eclipse + Tomcat7.0 + mysql5 <br/><br/>
 			系统采用技术: SpringMVC + Spring + Hibernate (SSH2)   <br/><br/> 
 		 
-					</font><font color=blue>本系统开发时间: 2014年</font>
+			</font><font color=blue>本系统开发时间: 2014年</font>
 				</td>
       </tr>
     </table>
